@@ -1,6 +1,6 @@
 # Idasen Desk Controller UI
 
-this is a complementary cross-platform script for the excellent controller by [rhyst](https://github.com/rhyst)/[idasen-controller](https://github.com/rhyst/idasen-controller)
+this is a complementary cross-platform script for the excellent controller by [rhyst](https://github.com/rhyst)/[idasen-controller](https://github.com/rhyst/linak-controller)
 
 sadly idasen doesnt have a native controller under any pc platform, only mobile.
 
@@ -10,7 +10,7 @@ also as i got tired of always having to either use the mobile app "which doesn't
 
 ## Setup
 
-please check the [original controller repo](https://github.com/rhyst/idasen-controller) first for the setup.
+please check the [original controller repo](https://github.com/rhyst/linak-controller) first for the setup.
 
 ## Usage
 
@@ -24,10 +24,6 @@ please check the [original controller repo](https://github.com/rhyst/idasen-cont
         ```
 
 3. if everything is done correctly, running the previous command above should show up a popup with the presets as buttons to chose from.
-
-## Todo
-
-- [ ] automate preset name entries inside `src/scripts/levels.py`
 
 ### Limitations
 

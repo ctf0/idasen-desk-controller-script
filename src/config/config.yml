@@ -1,6 +1,4 @@
-// https://github.com/rhyst/idasen-controller#configuration
+// https://github.com/rhyst/linak-controller?tab=readme-ov-file#configuration
 favourites:
-  sit-: 638
-  sit+: 700
+  sit: 700
   stand: 1030
-  stand+: 1100
