@@ -1,4 +1,5 @@
 import config
+import os
 import yaml
 import tkinter as tk
 import tkinter.font as fnt
@@ -12,7 +13,7 @@ def read_config_file():
     if config.os_is("Darwin"):
         path = os.path.expanduser('~/Library/Application Support/linak-controller/config.yaml')
     elif config.os_is("Windows"):
-        path = r'C:\Users\<user>\AppData\Local\linak-controller\linak-controller\config.yaml'
+        path = r'C:\\Users\\<user>\\AppData\\Local\\linak-controller\\linak-controller\\config.yaml'
     else:
         config.not_supported()
         return None
@@ -29,11 +30,11 @@ def run_command(level):
 
     if config.os_is("Darwin"):  # mac
         config.run_shell(
-            "path/to/linak-controller --move-to " + level + " > /dev/"
+            "~/.local/bin/linak-controller --move-to " + level
         )
     elif config.os_is("Windows"):
         config.run_shell(
-            r"path\to\linak-controller.exe --move-to " + level + " > "
+            r"path\\to\\linak-controller.exe --move-to " + level
         )
     else:
         config.not_supported()

@@ -27,4 +27,8 @@ please check the [original controller repo](https://github.com/rhyst/linak-contr
 
 ### Limitations
 
-idasen desk controller doesn't support pairing with multiple devices/platforms at the same time, check [issue/54](https://github.com/rhyst/idasen-controller/issues/54)
+idasen desk controller doesn't support pairing with multiple devices/platforms at the same time
+
+### Notes
+
+- for mac check https://github.com/rhyst/linak-controller/issues/33#issuecomment-1014647435

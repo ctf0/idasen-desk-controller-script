@@ -1,8 +1,12 @@
 import os
 import platform
 
-DULL = "nul 2>&1 &"
 os_name = platform.system()
+
+if os_name == "Windows":
+    DULL = " > nul 2>&1 &"
+else:
+    DULL = " > /dev/null 2>&1 &"
 
 def run_shell(cmnd):
     os.system(cmnd + DULL)
